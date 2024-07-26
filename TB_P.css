@@ -1,0 +1,75 @@
+:root{
+    --base:#ffffff;
+    --shade:#373738;
+}
+
+@media screen and (min-width: 767px) and(max-width: 1023px) {
+        header{
+            max-width: 1023px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .nav_links{
+            display: none;
+        }
+
+        .logo #logo{
+            width:45px;
+        }
+
+        .logo #txt{
+            width: 80px;
+            padding-left: 6px;
+        }
+
+    .talk{
+        display: none;
+    }
+
+    .banner{
+        max-width: 1023px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner img{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .banner .content{
+        max-width: 1023px;
+        position:absolute;
+        margin-right: 0px;
+        margin-bottom: 600px;
+    }
+
+    .banner h1{
+        font-size: 50px;
+    }
+    .content img{
+        width: 120px;
+    }
+
+    .section-1{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .section-1 img{
+        width: 700px;
+    }
+    .section-1 .text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-1 .text h1{
+        color:var(--base);
+    }
+}
+
